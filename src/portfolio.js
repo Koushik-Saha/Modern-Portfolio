@@ -34,7 +34,7 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Front-End Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive User Interfaces and Backend for web applications",
@@ -43,6 +43,21 @@ const skills = {
         "⚡ Integration of third party services such as Firebase/ AWS / GCP",
       ],
       softwareSkills: [
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#FFFFFF",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -58,25 +73,10 @@ const skills = {
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
           skillName: "Bootstrap",
           fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
             color: "#563d7c",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
           },
         },
         {
