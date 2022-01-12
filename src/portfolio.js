@@ -39,8 +39,9 @@ const skills = {
       skills: [
         "⚡ Develop highly interactive User Interfaces and Backend for web applications",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Creating application backend in Node, Express, Flask, Django and Fast-API",
-        "⚡ Integration of third party services such as Firebase/ AWS / GCP",
+        "⚡ Open Source Enthusiast, Life Long Learner",
+        "⚡ Passionate about Javascript, ReactJS, NodeJS",
+        "⚡ Vast experience on ant design which is the most used react base UI framework right now",
       ],
       softwareSkills: [
         {
@@ -101,20 +102,6 @@ const skills = {
           },
         },
         {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "Laravel",
-          fontAwesomeClassname: "simple-icons:laravel",
-          style: {
-            color: "#6C6C6C",
-          },
-        },
-        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
@@ -140,20 +127,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:figma",
           style: {
             color: "#339933",
-          },
-        },
-        {
-          skillName: "Linux",
-          fontAwesomeClassname: "simple-icons:linux",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
           },
         },
         {
@@ -198,6 +171,39 @@ const skills = {
             color: "#207297",
           },
         },
+      ],
+    },
+    {
+      title: "Back-End Development",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Creating application backend in Node & Laravel",
+        "⚡ Integration of third party services such as Firebase/ AWS",
+        "⚡ Create backend APIs using PHP & JavaScipt",
+        "⚡ Vast knowledge of RESTful APIs & MySQL Database design",
+      ],
+      softwareSkills: [
+        {
+          skillName: "PHP",
+          fontAwesomeClassname: "simple-icons:php",
+          style: {
+            color: "#4479A1",
+          },
+        },
+        {
+          skillName: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+          style: {
+            color: "#6C6C6C",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
@@ -205,66 +211,27 @@ const skills = {
             color: "#207297",
           },
         },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
           style: {
-            color: "#FF9900",
+            color: "#000000",
           },
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
           style: {
-            color: "#38AFBB",
+            color: "#4479A1",
           },
         },
         {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
           style: {
-            color: "#6863A6",
+            color: "#1488C6",
           },
         },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "simple-icons:githubactions",
