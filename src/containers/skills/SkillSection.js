@@ -22,7 +22,7 @@ function SkillSection(props) {
       {skills.data.map((skill, index) => {
         if (index % 2 === 0) {
           return (
-            <div className="skills-main-div">
+            <div className="skills-main-div" key={`skillsMain${index}`}>
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
@@ -45,6 +45,7 @@ function SkillSection(props) {
                         <p
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
+                          key={`skills${index}${skillSentence}`}
                         >
                           {skillSentence}
                         </p>
@@ -69,11 +70,12 @@ function SkillSection(props) {
                 </Fade>
                 <Fade left duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence) => {
+                    {skill.skills.map((skillSentence, index) => {
                       return (
                         <p
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
+                          key={`skillsTheme${index}`}
                         >
                           {skillSentence}
                         </p>

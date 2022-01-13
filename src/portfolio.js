@@ -241,6 +241,16 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Research & Development",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Swarm robotics for warehouse automation",
+        "⚡ Diabetes assistance for elderly patients",
+        "⚡ Smart energy solutions for homes & businesses with apps controlling appliances",
+      ],
+      softwareSkills: [],
+    },
   ],
 };
 
