@@ -266,18 +266,18 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "SRM Institute of Science and Technology",
+      title: "North South University",
       subtitle: "Bachelors in Computer Science and Engineering",
       logo_path: "SRM_Logo.png",
-      alt_name: "SSEC",
-      duration: "2019 - 2023",
+      alt_name: "NorthSouthUniversity",
+      duration: "2014 - 2019",
       descriptions: [
-        "⚡  I'm currently pursuing my Bachelors in Computer Science and Engineering.",
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡  I'm graduating with a Bachelor of Science in Computer Science and Engineering from North South University in 2019",
+        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
+        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://www.srmist.edu.in/",
+      website_link: "http://www.northsouth.edu/",
     },
   ],
 };
