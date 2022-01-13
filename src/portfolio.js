@@ -249,7 +249,16 @@ const skills = {
         "⚡ Diabetes assistance for elderly patients",
         "⚡ Smart energy solutions for homes & businesses with apps controlling appliances",
       ],
-      softwareSkills: [],
+      softwareSkills: [
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
+          style: {
+            backgroundColor: "#FFFFFF",
+            color: "#F7DF1E",
+          },
+        },
+      ],
     },
   ],
 };
