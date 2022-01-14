@@ -397,70 +397,56 @@ const experience = {
       title: "Personal Projects",
       experiences: [
         {
-          title: "R&D Member",
-          company: "Webarch Club",
-          company_url: "https://www.webarchsrm.com/",
+          title: "EShop (An E-commerce App) ",
+          company: "",
+          company_url: "",
           logo_path: "Webarch.jfif",
-          duration: "Mar 2020 - Nov 2020",
-          location: "SRM IST Kattankulathur",
+          duration: "June 2019 - Aug 2019",
+          location: "",
           description:
-            "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
+            "It is simple but powerful backend with simple design. It has 3 panel users, admin, seller. Seller can add product that can go to admin and admin can approve product and that goes directly in homepage.\n" +
+            "• It also has push notification system. DB: Firebase (NOSQL).",
           color: "#4285F4",
         },
         {
-          title: "Campus Leader",
-          company: "Code For Cause",
-          company_url: "https://www.codecau.se/",
+          title: "Phone Bazar ",
+          company: "",
+          company_url: "",
           logo_path: "CFC.jfif",
-          duration: "Nov 2020 - Present",
-          location: "SRM IST Kattankulathur",
+          duration: "Jan 2019 – June 2019",
+          location: "",
           description:
-            "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
+            "Back-End Development: Laravel, REST, jQuery. Admin and user panel with email verification login and admin access are secure with product checkout status.\n" +
+            "• Front-End Development: HTML, CSS and JS.\n" +
+            "• DB: MySQL",
           color: "#a60000",
         },
         {
-          title: "Machine Learning - Research associate",
-          company: "Next Tech Lab",
-          company_url: "https://nextech.io/",
+          title: "POTRO",
+          company: "",
+          company_url: "",
           logo_path: "NTL.jfif",
-          duration: "Oct 2020 - Present",
-          location: "SRM IST Kattankulathur",
+          duration: "July 2018 – Dec 2018",
+          location: "",
           description:
-            "Associate responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects and intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
+            "Back-End Development: Java, Phone OTP, Facebook User Verification, Google User Verification, Firebase Auth etc.\n" +
+            "• It's a WhatsApp like chat app using Email address and Phone number authorizations login and beautiful chat screen with profile and status summary Using firebase database.\n" +
+            "• DB: NOSQL (Firebase).\n" +
+            "• Pictures Optimization with firebase and notification system using json, profile update and push notification system. It has status update with firebase and it has notification system with firebase function.",
           color: "#62cff0",
         },
         {
-          title: "Campus Ambassador",
-          company: "Bagcampus",
-          company_url: "https://bagcampus.in/",
+          title: "Order Foods Restaurant & Server",
+          company: "",
+          company_url: "",
           logo_path: "Bagcampus.jpg",
-          duration: "Dec 2020 - May 2021",
-          location: "Remote",
+          duration: "Jan 2018 – Dec 2018",
+          location: "",
           description:
-            "Spread Awareness of new Technologies and Companies and new Opportunities to Students and Grow Bagcampus Community.",
+            "Food Orders Apps. Where user can order foods by category and Restaurant quality food order in home.\n" +
+            "• User can review, like, comment of any product of any shop. It has 2 panel User and Server.\n" +
+            "• DB: NOSQL(Firebase) & SQLite.",
           color: "#0059c9",
-        },
-        {
-          title: "Volunteer",
-          company: "Google Crowdsource",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "GCS.jfif",
-          duration: "Sept 2020 - Present",
-          location: "Remote",
-          description:
-            "As a member of the global Crowdsource community one can gain recognition from other Crowdsourcers and Google.",
-          color: "#ffffff",
-        },
-        {
-          title: "Student Volunteer",
-          company: "National Service Scheme",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "NSS.jfif",
-          duration: "Dec 2019 - May 2020",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#282b6c",
         },
       ],
     },
@@ -471,7 +457,10 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "I have been working on React JS and NEXT JS for 2 years. I have a vast knowledge of JavaScript and front-end tools like HTML, CSS, SCSS, Bootstrap. I have worked with REST APIs and have strong knowledge about UX design sensibilities.\n" +
+    "\n" +
+    "\n" +
+    "In recent days, I’ve been working with Typescript & React Redux on a real project which is underdeveloped. I worked with a backend admin panel using ANT design which is the most popular react enterprise-level UI design language & also worked with ANT design for about 1.5 years and now I am working for a mobile app using ANT design mobile. In my previous companies, I worked on many E-commerce projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -487,367 +476,367 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
-    link: "https://medium.com/@vedanshvijay/",
+    link: "https://medium.com/@koushik.saha666",
     avatar_image_path: "blogs_image.svg",
   },
 };
 
 const projects = {
   data: [
-    {
-      id: "0",
-      name: "Mind Space",
-      url: "https://www.mindspace.cf/",
-      description:
-        "This is Blogging website where users can create blogs, follow and unfollow other users, get summarized blog reccomendation on their dashboard and have a personalised searching mechanism.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-      ],
-    },
-    {
-      id: "1",
-      name: "Youtube Downloader",
-      url: "https://github.com/vvHacker007/Youtube-Downloader/",
-      description:
-        "A desktop GUI which can be used to download youtube videos and playlist with desired quality and type on desktop.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "2",
-      name: "Tune In",
-      url: "https://github.com/vvHacker007/Tune-In",
-      description:
-        "Tune in is a collaborative music playing system where multiple guests can join a room and enjoy the song being played. Guests can pause and vote to skip the current song.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Django",
-          iconifyClass: "logos-django",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Event Scheduler",
-      url: "https://github.com/vvHacker007/Event-Scheduler",
-      description:
-        "It is an all-purpose scheduler software. It is designed to monitor all the activities and give appropriate reminders for them.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Movie Reccomendation System",
-      url: "https://github.com/vvHacker007/Movie-Recommendation-Systems",
-      description:
-        "Made three python kernels explaining and implementing the three different types of movie recommender systems.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Login Authenticator",
-      url: "https://github.com/vvHacker007/Login-Authenticator",
-      description: "Made a template for a Login Authenticator using Flask ",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Calculator",
-      url: "https://github.com/vvHacker007/Calculator",
-      description:
-        "Made a GUI based Calculator. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "Notepad",
-      url: "https://github.com/vvHacker007/Notepad",
-      description:
-        "Made a GUI based Notepad. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Tetris",
-      url: "https://github.com/vvHacker007/Tetris",
-      description: "Made a GUI based arcade game Tetris using pygame.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Steganography",
-      url: "https://github.com/vvHacker007/Steganography",
-      description:
-        "A CLI tool to conceal messages within a file, text, image, or video.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Mini Paint",
-      url: "https://github.com/vvHacker007/Mini-Paint",
-      description: "GUI based Mini Paint Application.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Speedtest",
-      url: "https://github.com/vvHacker007/Speed-test",
-      description:
-        "An internet speed testing application which can notify about the download speed, upload speed, and also the reaction time of the connection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Cat Classifier",
-      url: "https://github.com/vvHacker007/Cat-Classifier",
-      description:
-        "Binary Cat Classifier made by hard coding Neural Networks in Python without using libraries such as Tensorflow or keras.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Snake",
-      url: "https://github.com/vvHacker007/Snake",
-      description:
-        "A snake game which covers all the basic features like score, high score and an automated speed increase simultaneously when the snake eats the food.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Score Predictor",
-      url: "https://score-predictor-app.herokuapp.com/",
-      description:
-        "Predicts students score based on the number of hours the student puts in it.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "13",
-      name: "Blood Donation Predictor",
-      url: "https://blood-donation-predictor-app.herokuapp.com/",
-      description:
-        "Predicts if one is ready to donate blood based on the user's blood donation history.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "14",
-      name: "Credit-Card Default Predictor",
-      url: "https://default-predictor-app.herokuapp.com/",
-      description:
-        "Predicts whether user's credit card would be defaulted or not based on the user's bank statements and history.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "15",
-      name: "Portfolio Website",
-      url: "https://vvhacker007.github.io/Portfolio/",
-      description: "You are stalking it right now 😉",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
+    // {
+    //   id: "0",
+    //   name: "Mind Space",
+    //   url: "https://www.mindspace.cf/",
+    //   description:
+    //     "This is Blogging website where users can create blogs, follow and unfollow other users, get summarized blog reccomendation on their dashboard and have a personalised searching mechanism.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Flask",
+    //       iconifyClass: "cib-flask",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "1",
+    //   name: "Youtube Downloader",
+    //   url: "https://github.com/vvHacker007/Youtube-Downloader/",
+    //   description:
+    //     "A desktop GUI which can be used to download youtube videos and playlist with desired quality and type on desktop.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "2",
+    //   name: "Tune In",
+    //   url: "https://github.com/vvHacker007/Tune-In",
+    //   description:
+    //     "Tune in is a collaborative music playing system where multiple guests can join a room and enjoy the song being played. Guests can pause and vote to skip the current song.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "Django",
+    //       iconifyClass: "logos-django",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "3",
+    //   name: "Event Scheduler",
+    //   url: "https://github.com/vvHacker007/Event-Scheduler",
+    //   description:
+    //     "It is an all-purpose scheduler software. It is designed to monitor all the activities and give appropriate reminders for them.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Flask",
+    //       iconifyClass: "cib-flask",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "4",
+    //   name: "Movie Reccomendation System",
+    //   url: "https://github.com/vvHacker007/Movie-Recommendation-Systems",
+    //   description:
+    //     "Made three python kernels explaining and implementing the three different types of movie recommender systems.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "3",
+    //   name: "Login Authenticator",
+    //   url: "https://github.com/vvHacker007/Login-Authenticator",
+    //   description: "Made a template for a Login Authenticator using Flask ",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Flask",
+    //       iconifyClass: "cib-flask",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "4",
+    //   name: "Calculator",
+    //   url: "https://github.com/vvHacker007/Calculator",
+    //   description:
+    //     "Made a GUI based Calculator. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "5",
+    //   name: "Notepad",
+    //   url: "https://github.com/vvHacker007/Notepad",
+    //   description:
+    //     "Made a GUI based Notepad. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "6",
+    //   name: "Tetris",
+    //   url: "https://github.com/vvHacker007/Tetris",
+    //   description: "Made a GUI based arcade game Tetris using pygame.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "7",
+    //   name: "Steganography",
+    //   url: "https://github.com/vvHacker007/Steganography",
+    //   description:
+    //     "A CLI tool to conceal messages within a file, text, image, or video.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "OpenCV",
+    //       iconifyClass: "logos-opencv",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "8",
+    //   name: "Mini Paint",
+    //   url: "https://github.com/vvHacker007/Mini-Paint",
+    //   description: "GUI based Mini Paint Application.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "9",
+    //   name: "Speedtest",
+    //   url: "https://github.com/vvHacker007/Speed-test",
+    //   description:
+    //     "An internet speed testing application which can notify about the download speed, upload speed, and also the reaction time of the connection.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "10",
+    //   name: "Cat Classifier",
+    //   url: "https://github.com/vvHacker007/Cat-Classifier",
+    //   description:
+    //     "Binary Cat Classifier made by hard coding Neural Networks in Python without using libraries such as Tensorflow or keras.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "11",
+    //   name: "Snake",
+    //   url: "https://github.com/vvHacker007/Snake",
+    //   description:
+    //     "A snake game which covers all the basic features like score, high score and an automated speed increase simultaneously when the snake eats the food.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "12",
+    //   name: "Score Predictor",
+    //   url: "https://score-predictor-app.herokuapp.com/",
+    //   description:
+    //     "Predicts students score based on the number of hours the student puts in it.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Flask",
+    //       iconifyClass: "cib-flask",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "13",
+    //   name: "Blood Donation Predictor",
+    //   url: "https://blood-donation-predictor-app.herokuapp.com/",
+    //   description:
+    //     "Predicts if one is ready to donate blood based on the user's blood donation history.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "14",
+    //   name: "Credit-Card Default Predictor",
+    //   url: "https://default-predictor-app.herokuapp.com/",
+    //   description:
+    //     "Predicts whether user's credit card would be defaulted or not based on the user's bank statements and history.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "15",
+    //   name: "Portfolio Website",
+    //   url: "https://vvhacker007.github.io/Portfolio/",
+    //   description: "You are stalking it right now 😉",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //   ],
+    // },
   ],
 };
 
