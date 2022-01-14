@@ -279,21 +279,22 @@ const degrees = {
       ],
       website_link: "http://www.northsouth.edu/",
     },
+    {
+      title: "Narail Government Victoria College",
+      subtitle: "Higher Secondary Education",
+      logo_path: "monogram.jpeg",
+      alt_name: "NorthSouthUniversity",
+      duration: "2011 - 2013",
+      descriptions: [
+        "⚡  I'm graduating with a Higher Secondary Education from Narail Government Victoria College in 2013",
+      ],
+      website_link: "http://www.ngvc.edu.bd/",
+    },
   ],
 };
 
 const certifications = {
   certifications: [
-    {
-      title: "Google Cloud",
-      subtitle: "Google Cloud Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1r0hYt8Pp0N0u_4Tg-poMF1Qv3LkoKVAP/view",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#2AAFED",
-    },
     {
       title: "Hackathon",
       subtitle: "Backyard Hacks 2.0",
@@ -312,50 +313,11 @@ const certifications = {
       alt_name: "hackathon",
       color_code: "#E2405F",
     },
-    // {
-    //   title: "A300: Atlas Security",
-    //   subtitle: "MongoDB University",
-    //   logo_path: "mongo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-    //   alt_name: "MongoDB University",
-    //   // color_code: "#F6B808",
-    //   color_code: "#47A048",
-    // },
-    {
-      title: "Contributor's Hack",
-      subtitle: "Hakin Codes",
-      logo_path: "HakinCodes.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1xvyy1M05lQN-s2VKw_Qvz6E7rPwrK2qm/view?usp=sharing",
-      alt_name: "Opensource Event",
-      color_code: "#fefd7b",
-    },
-    // {
-    //   title: "MLH Local Hack Day: Build",
-    //   subtitle: "Major League Hacking",
-    //   logo_path: "mlh-logo.svg",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-    //   alt_name: "Google",
-    //   color_code: "#fe0037",
-    // },
-    {
-      title: "Olympiad",
-      subtitle: "Ramanujan Mathematics Olympiad",
-      logo_path: "Olympiad.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
     {
       title: "Competitive Programming",
       subtitle: "Reply Challenges",
       logo_path: "Reply.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1KamrXJPTrF3zfMuEerbSnFUjOkt-agKT/view",
+      // certificate_link: "https://drive.google.com/file/d/1KamrXJPTrF3zfMuEerbSnFUjOkt-agKT/view",
       alt_name: "Reply",
       color_code: "#2AAFED",
     },
@@ -363,8 +325,7 @@ const certifications = {
       title: "Competitive Programming",
       subtitle: "Google Hash Code",
       logo_path: "google_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
+      // certificate_link: "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
       alt_name: "Reply",
       color_code: "#2AAFED",
     },
@@ -372,30 +333,19 @@ const certifications = {
       title: "Training",
       subtitle: "30 Days of Open Source",
       logo_path: "CFC.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
+      // certificate_link: "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
       alt_name: "Postman",
-      // color_code: "#f36c3d",
       color_code: "#a60000",
     },
     {
       title: "Training",
       subtitle: "Git Learning",
       logo_path: "Progate.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
+      // certificate_link:
+      //   "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
       alt_name: "Reply",
       color_code: "#88e7ce",
     },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
   ],
 };
 
