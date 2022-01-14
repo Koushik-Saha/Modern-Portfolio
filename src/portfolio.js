@@ -354,40 +354,47 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "My aim is to become a part of a prestigious and progressive organization where I can utilize my knowledge, skills and experience to its optimum in the fields relates and fulfillment to boost up the potential work base/standards of the institution.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "Technocolabs",
-          company_url: "https://technocolabs.com/",
+          title: "Software Engineer",
+          company: "MoveOn Technology",
+          company_url: "https://moveon.com.bd/",
           logo_path: "Technocolabs.jfif",
-          duration: "Sept 2020 - Oct 2020",
-          location: "Remote",
-          description: `Analysed the changes before and after people started using sanitizers using the covid-19 dataset. Built and analysed several predictive models for defaulting user’s credit card and deployed it on a full-stack website using Flask. Made a predictive model for Blood Donation for Future Expectancy and deployed it on a fully-fledged website. Increased productivity and problem-solving technics by 20%. 
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          duration: "Aug 2020 - Present",
+          location: "Plot 1020, Road, 9 Avenue 9, Dhaka 1216",
+          description: `MoveOn is an experience-based marketplace that brings people
+           more ways to get the most out of their desire to outreach their dream of 
+           shopping overseas in dynamic locations.I have been working on React JS and
+           NEXT JS for 2 years. I have a vast knowledge of JavaScript and front-end tools 
+           like HTML, CSS, SCSS, Bootstrap. I have worked with REST APIs and have strong 
+           knowledge about UX design sensibilities.In recent days, I’ve been working with 
+           Typescript & React Redux on a real project which is underdeveloped. I worked with 
+           a backend admin panel using ANT design which is the most popular react enterprise-level
+            UI design language & also worked with ANT design for about 1.5 years and now I am 
+            working for a mobile app using ANT design mobile. In my previous companies, I worked 
+            on many E-commerce projects.`,
           color: "#0071C5",
         },
         {
-          title: "Data Science Intern",
-          company: "The Sparks Foundation",
-          company_url: "hhttps://thesparksfoundation.info/",
+          title: "Junior Software Engineer",
+          company: "BDSOFT-IT",
+          company_url: "https://www.google.com/",
           logo_path: "TSF.png",
-          duration: "Aug 2020 - Sept 2020",
-          location: "Remote",
-          description: `Developed predictive models and deployed it on a full-stack website using Flask. Used Boxplot, Heatmap and Confusion Matrix for data visualization. Deep analysis on the superstore dataset using Bar Plots, Bar Charts, Pair Plots and Joint Plots for specific regions.
-          `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          duration: "May 2019 - July 2020",
+          location: "Zakir Hossain Road, Dhaka 1205",
+          description: `Created Front end of Yearn Financial Mutual Funds website. 
+          also defined simple web application for better user experience.`,
           color: "#ee3c26",
         },
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Personal Projects",
       experiences: [
         {
           title: "R&D Member",
