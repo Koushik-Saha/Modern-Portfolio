@@ -25,7 +25,7 @@
 }
 
 .image_value {
-  opacity: 1;
+  opacity: 0.5;
   position: relative;
   z-index: 2;
   transition: opacity 350ms ease 0s;
@@ -35,18 +35,6 @@
   height: 232px;
   pointer-events: none;
   max-width: 100%;
-}
-
-.image_value_second {
-  display: block;
-  top: 0px;
-  left: 0px;
-  height: 232px;
-  pointer-events: none;
-  position: absolute;
-  z-index: 1;
-  opacity: 1;
-  transition: opacity 0ms ease 0ms;
 }
 
 .main_context {

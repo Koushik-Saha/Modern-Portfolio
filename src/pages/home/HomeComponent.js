@@ -16,10 +16,6 @@ function Home(props) {
               <source srcSet={meLight} type="image/webp" />
               <img src={meLight} alt="Flowers" className="image_value" />
             </picture>
-            <picture style={{ display: "contents" }}>
-              <source srcSet={meLight} type="image/webp" />
-              <img src={meLight} alt="Flowers" className="image_value_second" />
-            </picture>
           </div>
         </div>
       </div>
