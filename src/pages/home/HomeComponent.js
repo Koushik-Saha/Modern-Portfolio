@@ -7,9 +7,8 @@ import "./HomeComponent.css";
 import meLight from "../../assests/images/me-light.webp";
 
 function Home(props) {
-  console.log(meLight);
   return (
-    <div className="abc">
+    <div>
       <div className="icon_maker">
         <div className="toasty-character">
           <div className="fade_in">
