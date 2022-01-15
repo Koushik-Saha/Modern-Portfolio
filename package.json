@@ -5,7 +5,7 @@
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "start": "PORT=7010 react-scripts start",
+    "start": "set PORT=7010 && react-scripts start",
     "test": "react-scripts test"
   },
   "dependencies": {
