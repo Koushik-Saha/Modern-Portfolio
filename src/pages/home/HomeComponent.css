@@ -40,8 +40,26 @@
 .main_context {
   position: fixed;
   z-index: 1001;
-  left: 110px;
-  bottom: 105px;
+  left: 70px;
+  bottom: 83px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main_context {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .main_context {
+    opacity: 0.3;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .main_context {
+    display: none !important;
+  }
 }
 
 .sub_main_context {
