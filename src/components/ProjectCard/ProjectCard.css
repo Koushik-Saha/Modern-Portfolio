@@ -62,6 +62,7 @@
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  margin-bottom: 11%;
 }
 
 .repo-details {

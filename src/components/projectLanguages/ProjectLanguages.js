@@ -24,9 +24,9 @@ function ProjectLanguages(props) {
                 >
                   <span
                     className="iconify"
-                    data-icon={logo.iconifyClass}
+                    data-icon={logo.fontAwesomeClassname}
                     data-inline="false"
-                  ></span>
+                  />
                 </li>
               </OverlayTrigger>
             );
