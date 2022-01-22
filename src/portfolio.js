@@ -613,6 +613,122 @@ const projects = {
         },
       ],
     },
+    {
+      id: "4",
+      name: "EShop (An E-commerce App) ",
+      url: "/",
+      description:
+        "It is simple but powerful backend with simple design. It has 3 panel users, admin, seller.",
+      languages: [
+        {
+          name: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+        },
+        {
+          name: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+        },
+        {
+          name: "CSS3",
+          fontAwesomeClassname: "simple-icons:css3",
+        },
+        {
+          name: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+        },
+        {
+          name: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "Phone Bazar",
+      url: "/",
+      description:
+        "Back-End Development: Laravel, REST, jQuery. Admin and user panel with email verification login and admin access are secure with product checkout status.",
+      languages: [
+        {
+          name: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+        },
+        {
+          name: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+        },
+        {
+          name: "CSS3",
+          fontAwesomeClassname: "simple-icons:css3",
+        },
+        {
+          name: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+        },
+        {
+          name: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+        },
+      ],
+    },
+    {
+      id: "6",
+      name: "POTRO",
+      url: "/",
+      description:
+        "Java, Phone OTP, Facebook User Verification, Google User Verification, Firebase Auth etc.",
+      languages: [
+        {
+          name: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+        },
+        {
+          name: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+        },
+        {
+          name: "CSS3",
+          fontAwesomeClassname: "simple-icons:css3",
+        },
+        {
+          name: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+        },
+        {
+          name: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+        },
+      ],
+    },
+    {
+      id: "7",
+      name: "Order Foods Restaurant & Server",
+      url: "http://admin.moveon.work/",
+      description:
+        "Food Orders Apps. Where user can order foods by category and Restaurant quality food order in home.",
+      languages: [
+        {
+          name: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+        },
+        {
+          name: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+        },
+        {
+          name: "CSS3",
+          fontAwesomeClassname: "simple-icons:css3",
+        },
+        {
+          name: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+        },
+        {
+          name: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+        },
+      ],
+    },
   ],
 };
 
