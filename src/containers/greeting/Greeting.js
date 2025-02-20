@@ -29,11 +29,19 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                <span>I'm </span>
-                <span style={{ color: theme.accentColor }}>
-                  {greeting.full_name}.{" "}
+                <span>
+                  I'm{" "}
+                  <span style={{ color: theme.accentColor }}>
+                    {greeting.full_name}.{" "}
+                  </span>
                 </span>
-                {greeting.subTitle}
+                <span style={{ fontSize: "1.25rem", color: theme.skinColor }}>
+                  {greeting.subTitleHead}
+                </span>
+                <span style={{ fontSize: "1rem" }}>{greeting.subTitle}</span>
+                <span style={{ fontSize: "1rem" }}>{greeting.subtitle01}</span>
+                <span style={{ fontSize: "1rem" }}>{greeting.subtitle02}</span>
+                <span style={{ fontSize: "1rem" }}>{greeting.subtitle03}</span>
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
