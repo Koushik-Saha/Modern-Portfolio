@@ -1,0 +1,189 @@
+.layout-engine-main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.layout-engine-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  flex-grow: 1;
+}
+
+.layout-engine-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.layout-title {
+  font-family: "Google Sans Medium", sans-serif;
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.layout-subtitle {
+  font-family: "Google Sans Regular", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.layout-tags {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.layout-tag {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-family: "Google Sans Medium", sans-serif;
+  font-size: 14px;
+}
+
+.layout-engine-body {
+  font-family: "Google Sans Regular", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.layout-section {
+  margin-bottom: 45px;
+}
+
+.layout-section h2 {
+  font-family: "Google Sans Medium", sans-serif;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.layout-section p {
+  margin-bottom: 15px;
+}
+
+.layout-section ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.layout-section li {
+  margin-bottom: 8px;
+}
+
+/* Visualization styling */
+.architecture-viz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 30px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.viz-box {
+  width: 100%;
+  max-width: 450px;
+  padding: 18px 24px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.accent-box {
+  border: 2px solid;
+  font-weight: bold;
+}
+
+.viz-title {
+  font-family: "Google Sans Medium", sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.viz-desc {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.viz-arrow {
+  font-size: 24px;
+  margin: 10px 0;
+  font-family: monospace;
+  opacity: 0.6;
+}
+
+/* Code block styling */
+.code-container {
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  overflow-x: auto;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.code-container pre {
+  margin: 0;
+}
+
+.code-container code {
+  color: #c9d1d9;
+}
+
+/* Impact layout grid */
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.impact-card {
+  padding: 25px 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.impact-card:hover {
+  transform: translateY(-5px);
+}
+
+.impact-val {
+  font-family: "Google Sans Medium", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.impact-label {
+  font-family: "Google Sans Regular", sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .layout-title {
+    font-size: 32px;
+  }
+  .layout-subtitle {
+    font-size: 17px;
+  }
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+  .layout-engine-container {
+    padding: 20px 15px;
+  }
+}

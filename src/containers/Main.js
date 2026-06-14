@@ -6,6 +6,7 @@ import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import LayoutEngine from "../pages/layout-engine/LayoutEngine";
 import { settings } from "../portfolio.js";
 
 export default function Main(propss) {
@@ -86,6 +87,16 @@ export default function Main(propss) {
                 />
               )}
             />
+            <Route
+              path="/layout-engine"
+              render={(props) => (
+                <LayoutEngine
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
           </Switch>
         </Router>
       </div>
@@ -151,6 +162,16 @@ export default function Main(propss) {
               path="/projects"
               render={(props) => (
                 <Projects
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/layout-engine"
+              render={(props) => (
+                <LayoutEngine
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
