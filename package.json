@@ -2,6 +2,9 @@
   "private": true,
   "name": "modern-portfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
